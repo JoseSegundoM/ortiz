@@ -1,0 +1,14 @@
+% Table 3.2b - Discrete Controller Parameters
+\begin{tabular}{llr}
+\hline
+\textbf{Parameter} & \textbf{Description} & \textbf{Value} \\
+\hline
+\texttt{MODEL\_A} & Discrete pole  a = exp(-Ts/tau) & 0.99800 \\
+\texttt{MODEL\_B} & Discrete gain  b = K*(1-a) & -0.000654 \\
+\texttt{BUFFER\_SIZE} & Delay buffer length & 22 samples \\
+\texttt{TPO\_WINDOW} & Time-proportional output window & 33 s \\
+\texttt{PI\_KP} & Prop. gain (Tc = t0/10) & -696.2832 \\
+\texttt{PI\_KI} & Integral gain (positional form) & -1.393849 \\
+\texttt{Vp\_ss} & Integral init / SS duty cycle & 0.1888 \\
+\hline
+\end{tabular}

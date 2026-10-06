@@ -1,0 +1,22 @@
+% Table 3.1b - Physical Parameters of the Laboratory Prototype
+\begin{tabular}{llr}
+\hline
+\textbf{Parameter} & \textbf{Description} & \textbf{Value} \\
+\hline
+\texttt{V} & Tank volume & 0.71 ft3 (approx 20 L) \\
+\texttt{T_hot} & Hot inlet temperature & 110 degF (43.3 degC) \\
+\texttt{T_cold} & Cold inlet temperature & 50 degF (10 degC) \\
+\texttt{T_SP} & Operating setpoint & 90 degF (32.2 degC) \\
+\texttt{C_VL} & Solenoid valve flow coeff. & 0.20 gpm/sqrt(psi) \\
+\texttt{Delta_P (eff)} & Supply pressure (actual) & 10 psi \\
+\texttt{W1} & Hot water mass flow & 4.41 lb/min \\
+\texttt{W2_ss} & Cold water SS mass flow & 0.995 lb/min \\
+\texttt{Vp_ss} & Valve duty at SS (90 degF) & 0.1888 \\
+\texttt{K} & FOPDT static gain & -0.327 frac TO/CO \\
+\texttt{tau} & FOPDT time constant & 499.54 s \\
+\texttt{t0} & FOPDT dead time & 21.94 s \\
+\texttt{Ts} & Sampling period & 1.0 s \\
+\texttt{d = t0/Ts} & Buffer size (Smith predictor delay) & 22 samples \\
+\texttt{N_TPO} & TPO window & 33 s \\
+\hline
+\end{tabular}

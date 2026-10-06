@@ -1,0 +1,12 @@
+% Table 4.1 - Performance Metrics: PI vs Smith Predictor
+% Step: 80->95 degF, +/-5% settling criterion
+\begin{tabular}{lcccc}
+\hline
+ & Smith ts [s] & Smith OS [%] & PI ts [s] & PI OS [%] \\
+\hline
+Tc=2L & 787 & 0.0 & 777 & 0.0 \\
+Tc=L & 781 & 0.0 & 786 & 0.0 \\
+Tc=L/2 & 781 & 0.0 & 810 & 0.0 \\
+Tc=L/4 & 786 & 0.0 & 780 & 0.0 \\
+\hline
+\end{tabular}

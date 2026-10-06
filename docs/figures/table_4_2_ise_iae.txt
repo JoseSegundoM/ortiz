@@ -1,0 +1,11 @@
+% Table 4.2 - ISE/IAE Comparison (Step 80->95 degF, 900-s window)
+\begin{tabular}{lcccc}
+\hline
+ & Smith ISE & Smith IAE & PI ISE & PI IAE \\
+\hline
+Tc=2L & 39886.3 & 4708.4 & 40453.4 & 4740.1 \\
+Tc=L & 41531.1 & 4798.3 & 43101.4 & 4897.2 \\
+Tc=L/2 & 41640.8 & 4797.2 & 48443.1 & 5236.2 \\
+Tc=L/4 & 42934.1 & 4879.6 & 41177.7 & 4763.2 \\
+\hline
+\end{tabular}

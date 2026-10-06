@@ -1,0 +1,19 @@
+Smith Predictor Temperature Control – Simulation Summary
+============================================================
+Physical system:
+  Tank: 0.71 ft³ (≈20 L)  Pipe: 20 in  Hot: 110°F  Cold: 50°F
+FOPDT model (identified from step response):
+  K=-0.3270  τ=499.54 s  t₀=21.94 s
+Discrete controller (ZOH, Ts=1 s):
+  MODEL_A=0.99800  MODEL_B=-0.000654  BUFFER_SIZE=22
+  PI_KP=-696.2832  PI_KI=-1.393849
+  TPO_WINDOW=33 s  nominal Vp_ss=0.1888
+Defects modelled:
+  Shared-pipe coupling α=0.35 (35% ΔP loss when valve=ON)
+  Low-pressure supply: ΔP_eff=10.0 psi  (rated=16.0 psi)
+Performance:
+  80→95°F:   settle=681s  SS_err=-5.58°F  overshoot=0.00°F
+  95→100°F:  settle=not settled in 600s (physically limited)
+
+CSV columns:
+  time_s | setpoint_F | actual_F | predicted_F | valve_duty | valve_tpo
